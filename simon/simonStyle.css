@@ -1,0 +1,113 @@
+body{
+    background-image: url("photos/simonBackground.jpg");
+}
+
+#extrnalCircle{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    height: 600px;
+    width: 600px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#redBox{
+    position: absolute;
+    background: darkred;
+    height: 300px;
+    width: 300px;
+    border: black;
+    border-radius: 300px 0px 0px 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#greenBox{
+    position: absolute;
+    background: green;
+    height: 300px;
+    width: 300px;
+    border-radius: 0px 0px 0px 300px;
+    top: 50%;
+    border-style: solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    ;
+}
+#blueBox{
+    position: absolute;
+    background: darkblue;
+    height: 300px;
+    width: 300px;
+    border-radius: 0px 300px 0px 0px;
+    left: 50%;
+    border-style: solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#yellowBox{
+    position: absolute;
+    background: #fcc419;
+    height: 300px;
+    width: 300px;
+    border-radius: 0px 0px 300px 0px;
+    left: 50%;
+    top: 50%;
+    border-style: solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#internalCircle{
+    position: absolute;
+    background: LightGray;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    top: 25%;
+    left: 25%;
+}
+
+#switches{
+    position: absolute;
+    top: 50%;
+    left:10%;
+}
+
+.button1{
+    font-size: larger;
+    border-radius: 4px;
+    border-color: cadetblue;
+}
+
+.button2{
+    font-size: larger;
+    margin: 0px 0px 0px 30px;
+    border-radius: 4px;
+    border-color: cadetblue;
+}
+
+
+.textTitle{
+    position: absolute;
+    margin: 70px 0px 0px 80px;
+    font-size:60px;
+    font-family: 'Bangers', cursive;
+}
+
+.counter{
+    position: absolute;
+    background: FireBrick;
+    height: 50px;
+    width: 90px;
+    margin: 200px 0px 0px 110px;
+    text-align: center;
+    color:  Azure;
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 50px;
+    
+}
